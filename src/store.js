@@ -41,7 +41,7 @@ const saveState = (state) => {
 const persistedState = loadState();
 
 export const store = configureStore({
-  devTools: true,
+  // devTools: true,
   reducer: {
     todos: ToDoReducer,
   },
